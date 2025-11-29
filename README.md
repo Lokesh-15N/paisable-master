@@ -63,9 +63,6 @@ Paisable is a **full-stack personal finance management app** built with **React 
 │ ├── models/
 │ └── uploads/ # static served files (receipts)
 │
-├── docs/
-│ ├── openapi.yaml
-│
 ├── frontend/
 │ ├── src/
 │ │ ├── pages/
@@ -84,13 +81,6 @@ Paisable is a **full-stack personal finance management app** built with **React 
 ```
 
 ## Getting Started
-
-### Fork the repository
-
-Before cloning, make sure to fork the repository to your GitHub account.
-
-1. Go to the GitHub repo page: https://github.com/Code-A2Z/paisable
-2. Click Fork in the top-right corner.
 
 ### Clone your fork
 
@@ -144,17 +134,6 @@ npm run dev
 ```
 
 Frontend will run on → `http://localhost:5173`
-
-## API Documentation
-
-The full API reference is defined in **OpenAPI 3.0** format.
-
-See the file → [`docs/openapi.yaml`](./docs/openapi.yaml)
-
-You can:
-
-* Open it in [Swagger Editor](https://editor.swagger.io/)
-* Import into **Postman** or **Insomnia**
 
 ## Core API Endpoints
 
