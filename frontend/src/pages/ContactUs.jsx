@@ -63,8 +63,8 @@ const ContactUs = () => {
       ),
       title: "Email Us",
       description: "Send us an email anytime",
-      details: "support@paisable.com",
-      action: "mailto:support@paisable.com",
+         details: "support@financika.com",
+         action: "mailto:support@financika.com",
     },
     {
       icon: (
@@ -148,22 +148,22 @@ const faqs = [
   {
     question: "Is my financial data secure on Paisable?",
     answer:
-      "Yes. Paisable uses advanced encryption (AES-256) and secure HTTPS connections to protect your data. All personal and financial details are encrypted both in transit and at rest. We never share or sell your data to anyone.",
+       "Yes. Financika uses advanced encryption (AES-256) and secure HTTPS connections to protect your data. All personal and financial details are encrypted both in transit and at rest. We never share or sell your data to anyone.",
   },
   {
     question: "Can I scan and upload receipts using Paisable?",
     answer:
-      "Absolutely! Paisable integrates Google Gemini AI for OCR-based receipt scanning. Just upload a photo of your receipt, and the app automatically extracts merchant name, amount, and date, then categorizes it as a transaction.",
+       "Absolutely! Financika integrates Google Gemini AI for OCR-based receipt scanning. Just upload a photo of your receipt, and the app automatically extracts merchant name, amount, and date, then categorizes it as a transaction.",
   },
   {
     question: "Do I need to pay to use Paisable?",
     answer:
-      "No. Paisable is completely free to use for personal finance tracking. In future, we may introduce optional premium features like multi-account analytics or AI-based financial insights.",
+       "No. Financika is completely free to use for personal finance tracking. In future, we may introduce optional premium features like multi-account analytics or AI-based financial insights.",
   },
   {
     question: "Can I access my account from multiple devices?",
     answer:
-      "Yes. Paisable is a web-based app, so you can securely log in from any device—desktop, tablet, or mobile browser. Your data stays synced across all devices automatically.",
+       "Yes. Financika is a web-based app, so you can securely log in from any device—desktop, tablet, or mobile browser. Your data stays synced across all devices automatically.",
   },
   {
     question: "What happens if I delete my account?",

@@ -51,7 +51,7 @@ describe("GET /api/transactions/export", () => {
 
     expect(res.status).toBe(200);
     expect(res.headers["content-type"]).toContain("text/csv");
-    expect(res.headers["content-disposition"]).toContain("paisable_transactions.csv");
+    expect(res.headers["content-disposition"]).toContain("financika_transactions.csv");
 
     const expectedCSV = Papa.unparse(
       mockTransactions.map((t) => ({

@@ -4,7 +4,7 @@ const User = require('./models/User'); // adjust path if needed
 
 // 👇 Replace this with a valid ObjectId from your User collection
 
-const MONGO_URI = "mongodb://127.0.0.1:27017/paisable";
+const MONGO_URI = "mongodb://127.0.0.1:27017/financika";
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('Connected to MongoDB'))

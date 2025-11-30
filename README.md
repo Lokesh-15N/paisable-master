@@ -1,7 +1,8 @@
 
-# Paisable
 
-Paisable is a **full-stack personal finance management app** built with **React (frontend), Node.js/Express (backend), MongoDB (database)**, and enhanced with **Google Gemini AI for OCR-based receipt scanning**. It helps users track income, expenses, receipts, and visualize financial analytics via charts.
+# Financika
+
+Financika is a **full-stack personal finance management app** built with **React (frontend), Node.js/Express (backend), MongoDB (database)**, and enhanced with **Google Gemini AI for OCR-based receipt scanning**. It helps users track income, expenses, receipts, and visualize financial analytics via charts.
 
 ## Features
 
@@ -14,8 +15,8 @@ Paisable is a **full-stack personal finance management app** built with **React 
 
 ## Deployment Links
 
-* Frontend: [Netlify](https://paisable.netlify.app/)
-* Backend: [Render](https://paisable.onrender.com)
+* Frontend: [Netlify](https://financika.netlify.app/)
+* Backend: [Render](https://financika.onrender.com)
 
 ## Tech Stack
 
@@ -86,8 +87,8 @@ Paisable is a **full-stack personal finance management app** built with **React 
 ### Clone your fork
 
 ```bash
-git clone https://github.com/your-username/paisable.git
-cd paisable
+git clone https://github.com/your-username/financika.git
+cd financika
 ```
 
 ### Backend Setup
