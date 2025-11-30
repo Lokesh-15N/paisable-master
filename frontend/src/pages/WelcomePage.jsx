@@ -67,7 +67,7 @@ export default function WelcomePage() {
 
       {/* Hero Section */}
       <main className="text-center py-20 px-4">
-        <h2 className="text-5xl font-bold text-gray-900 dark:text-white">Take Control of Your Finances</h2>
+        <h2 className="text-5xl font-bold text-gray-900 dark:text-white">Take  Your Finances</h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">The simple, smart, and secure way to manage your income and expenses, visualize your spending, and achieve your financial goals.</p>
         {user ? (
           <Link to="/dashboard" className="mt-8 inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-blue-700">Go to Dashboard</Link>
