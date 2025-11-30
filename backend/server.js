@@ -20,9 +20,14 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://localhost:5173",
+  "http://localhost:3000",
   "https://localhost:3000",
   "http://localhost:5000",
-  "https://paisable-master.onrender.com",
+  "https://localhost:5000",
+  "http://financika.netlify.app",
+  "https://financika.netlify.app",
+  "https://paisable-master.onrender.com"
 ];
 
 app.use(
