@@ -25,7 +25,8 @@ const allowedOrigins = [
   "https://localhost:3000",
   "http://localhost:5000",
   "https://localhost:5000",
-  "https://financika.onrender.com",
+  "https://financika.onrender.com", 
+  "https://paisable-master.onrender.com" 
 ];
 
 app.use(
