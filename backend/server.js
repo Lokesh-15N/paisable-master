@@ -1,3 +1,5 @@
+// Serve frontend static files
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
 const express = require('express');
 const path = require('path');
 const dotenv = require('dotenv');
