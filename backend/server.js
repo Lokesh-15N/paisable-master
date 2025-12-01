@@ -1,5 +1,3 @@
-// Serve frontend static files
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
 const express = require('express');
 const path = require('path');
 const dotenv = require('dotenv');
@@ -67,12 +65,11 @@ app.use('/api/recurring', require('./routes/recurringTransactionRoutes'));
 // Serve static files from the uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Serve frontend static files
+// Serve frontend static files (after API routes, before SPA fallback)
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
-// Fallback to index.html for SPA
-// Serve frontend for all non-API routes (Express v5 regex catch-all)
-app.get(/^\/(?!api).*/, (req, res) => {
+// Fallback to index.html for SPA (for all non-API, non-static routes)
+app.get(/^\/(?!api|uploads|assets).*/, (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
 });
 
