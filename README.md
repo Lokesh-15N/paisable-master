@@ -256,7 +256,7 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 **Lokesh**  
 - GitHub: [@Lokesh-15N](https://github.com/Lokesh-15N)
-- Email: lokesh15n@gmail.com
+- Email: lokeshnighotln@gmail.com
 
 ---
 
